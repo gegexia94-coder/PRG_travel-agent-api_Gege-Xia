@@ -1,0 +1,18 @@
+[project]
+name = "travel-agent-api"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "gege-xia",email = "GEGEXIA94@GMAIL.COM"}
+]
+readme = "README.md"
+requires-python = "<4.0,>=3.9.0"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "travel_agent_api", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
