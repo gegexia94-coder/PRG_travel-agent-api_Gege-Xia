@@ -17,5 +17,5 @@ def travel_agent_chat(payload: dict):
 
     return [
         *messages,
-        {"role": "assistant", "content": answer},
+        {"type": "ai", "content": answer},
     ]
