@@ -1,10 +1,5 @@
 # Travel Agent API
 
-Questo repository contiene la parte backend Python del progetto finale **Travel Agent**.
-
-Il progetto fa parte della specializzazione Coding AI.  
-La parte frontend Laravel era già fornita nel materiale del progetto, mentre in questo repository ho lavorato sulla parte Python: API, servizi, tool, configurazione, integrazione con AI e test del flusso completo.
-
 L'obiettivo del progetto è creare un assistente di viaggio che riceve una richiesta da una chat web e restituisce una risposta utile con:
 
 - informazioni su voli o trasporti
@@ -17,8 +12,8 @@ L'obiettivo del progetto è creare un assistente di viaggio che riceve una richi
 L'utente scrive una richiesta, per esempio:
 
 ```text
-Voglio andare a Parigi da Venezia per 3 giorni
 
+Voglio andare a Parigi da Venezia per 3 giorni
 
 Il frontend Laravel invia questo messaggio al backend FastAPI.
 
