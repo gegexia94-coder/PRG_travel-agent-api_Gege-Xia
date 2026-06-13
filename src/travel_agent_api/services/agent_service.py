@@ -12,4 +12,16 @@ def run_travel_agent(destination: str) -> str:
     history = get_historical_info(destination)
     plan = create_travel_plan(destination)
 
-    return "\n".join([flights, hotels, history, plan])
+    return f"""
+## ✈️ Voli e trasporti
+{flights}
+
+## 🏨 Hotel e soggiorno
+{hotels}
+
+## 🏛️ Cultura e storia
+{history}
+
+## 🗺️ Piano viaggio
+{plan}
+""".strip()
